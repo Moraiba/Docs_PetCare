@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Registro usuario</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="bg-purple d-flex justify-content-center align-items-center vh-100">
+    <!-- Example Code -->
+    <form id="UsuarioForm" style="display: block;">
+        <h1>Regístrate</h1>
+        <div class="mb-3">
+            <label for="Nombre" class="form-label">Nombre o Apodo</label>
+            <input type="text" class="form-control" id="Nombre">
+            <div id="Apodo1" class="form-text">Superman 27</div>
+        </div>
+        <div class="mb-3">
+            <label for="Telefono" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="Telefono">
+            <div id="TelefonoAyuda" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+            <label for="Correo" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="Correo" aria-describedby="EmailAyuda">
+            <div id="EmailAyuda" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+        </div>
+        <div class="mb-3">
+          <label for="Contraseña" class="form-label">Password</label>
+          <input type="password" id="Contraseña" class="form-control" aria-describedby="passwordHelpBlock">
+          <div id="passwordHelpBlock" class="form-text">
+            La contraseña debe tener mas de 8 caracteres, letras, numeros, careacteres especiales, y sin espacios.
+        </div>
+        <button type="submit" class="btn btn-primary">Registrar</button>
+        <div></div>
+          <a href="login1.html">Inicia sesion AQUI</a>
+        </div>
+      </form>
+    
+    <script src="registroUsuario.js"></script>
+    <!-- End Example Code -->
+
+  </body>
+</html>
